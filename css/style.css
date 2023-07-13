@@ -8,6 +8,9 @@ font-family: 'Fredoka', sans-serif;
 margin: 45px auto;
 width: 1000px;
 }
+.float-left{
+  float: left;
+}
 /*  header */
 h1{
   font-size: 30px;
@@ -19,5 +22,42 @@ header p{
 h1,header p{
   text-align: center;  
 }
+/* main */
+main{
+  padding: 10px;
+}
+
+.rettangolo{
+  width: 285px;
+  height: 80px;
+  background-color: #0f0e17;
+    margin: 20px;
+    box-shadow:  3px  3px 5px #dedede,
+                 -3px -3px 5px #dedede,
+                 3px -3px 5px #dedede,
+                 -3px  3px 5px #dedede;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+img{
+  width: 80px;
+  height: 80px;
+}
+.testo h3,.testo span{  
+  color: white;
+  margin: 6px 15px;
+}
+.testo span{
+  font-size:13px;
+  display: block;  
+}
+.testo .mail{
+  color: #00a9f4;
+}
+
 
   
